@@ -1,7 +1,29 @@
+ممتاز! بما إنك أضفت مشروع **Maze Game** على الريبو وعاوز تضيف عليه مشروع اللعبة التانية **Catch the Star**، فأنسب طريقة هي:
 
-# 🎮 Maze Game
+### ✅ خطوات دمج المشروع الجديد في نفس الريبو:
 
-A simple interactive maze game developed in C++ using the BGI graphics library. The game was built as a Computer Graphics project and aims to demonstrate basic animation and user interaction with graphical elements.
+#### 1. **إنشاء مجلد جديد للمشروع داخل الريبو**:
+
+لتنظيم المشاريع داخل نفس المستودع، من الأفضل إنشاء مجلد جديد داخل الريبو مثلاً:
+
+```
+/Maze-Game-Repo
+├── MazeGame/
+│   └── maze.cpp
+├── CatchTheStar/
+│   └── catch_star.cpp
+└── README.md
+```
+
+#### 2. **تحديث الـ README ليعكس وجود المشروعين**:
+
+يمكنك تعديل ملف `README.md` ليشمل المشروع الثاني. إليك نسخة محدثة من `README.md` بعد إضافة مشروع "Catch the Star":
+
+---
+
+# 🎮 Maze Game & Catch the Star
+
+مشروعان بسيطان في مجال **Computer Graphics** باستخدام لغة C++ ومكتبة BGI.
 
 ---
 
@@ -22,38 +44,58 @@ A simple interactive maze game developed in C++ using the BGI graphics library. 
 
 ---
 
-## 🧩 Overview
+## 🧩 Projects Included
 
-* Navigate a yellow ball through a maze using keyboard keys.
-* Reach the white circle to win.
-* Use `W`, `A`, `S`, `D` keys to move Up, Left, Down, Right.
-* Press `SPACE` anytime to exit.
+### 1. Maze Game
+
+* 🎯 Navigate a yellow ball through a maze using `W`, `A`, `S`, `D`.
+* 🎯 Reach the white circle to win.
+* ⌨️ Press `SPACE` to exit.
+
+### 2. Catch the Star
+
+* ⭐ Catch falling stars using a blue basket.
+* 🎮 Move basket with `A` (left) and `D` (right).
+* 🎯 Score increases when a star is caught.
+* ⌨️ Press `ESC` to exit.
 
 ---
 
 ## 🖥️ Requirements
 
-* Turbo C++ or any environment that supports `<graphics.h>` and `<winbgim.h>`.
-* Windows OS (BGI graphics are specific to this environment).
+* Turbo C++ or any compiler that supports `<graphics.h>` and `<winbgim.h>`.
+* Windows OS.
 
 ---
 
 ## 💡 Concepts Covered
 
-* Basic animation with C++
-* BGI graphics rendering
-* Keyboard input handling
-* Real-time game loop simulation
+* Basic 2D Animation
+* BGI Graphics
+* Real-Time User Interaction
+* Game Loops and Collision Detection
 
 ---
 
-## 🔖 Tags
+## 📁 Project Structure
 
-`c++` `graphics` `bgi` `game-development` `computer-graphics`
+```
+/
+├── MazeGame/
+│   └── maze.cpp
+├── CatchTheStar/
+│   └── catch_star.cpp
+└── README.md
+```
 
 ---
 
 ## 📬 Contact
 
-For inquiries or collaboration, feel free to connect via [LinkedIn – Mohamed Ebrahim Hamed](https://www.linkedin.com/in/mohamed-ebrahim-hamed)
+Connect with us via [LinkedIn – Mohamed Ebrahim Hamed](https://www.linkedin.com/in/mohamed-ebrahim-hamed)
 
+---
+
+## 🔖 Tags
+
+`c++` `graphics` `bgi` `game-development` `computer-graphics` `educational`
